@@ -1,0 +1,83 @@
+.HEA
+.TIM 2025-01-28T22:22:22-0800
+.APP "Eeschema 8.0.7"
+.TYP FULL
+
+.ADD_COM     U2     "XIAO-ESP32-S3-SMD"     "esp32c6:XIAO-ESP32C6-SMD"
+.ADD_COM     SW1     "SW_Push"     "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG"
+.ADD_COM     BT1     "1043"     "BAT_1043:BAT_1043"
+.ADD_COM     D1     "LED"     "LED_SMD:LED-APA102-2020"
+.ADD_COM     R1     "R_US"     "Resistor_SMD:R_0201_0603Metric"
+.ADD_COM     SW2     "SW_SPST"     "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
+.ADD_COM     U1     "DFR0299"     "DFR0299:MODULE_DFR0299"
+.ADD_COM     R3     "R_US"     "Resistor_SMD:R_0201_0603Metric"
+.ADD_COM     J1     "Screw_Terminal_01x02"     "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree"
+.ADD_COM     LS1     "Speaker"     "$noname"
+.ADD_COM     R2     "R_US"     "Resistor_SMD:R_0201_0603Metric"
+.ADD_COM     M1     "RFID-RC522"     "RFID-RC522:RFID-RC522"
+
+
+.ADD_TER   J1   1     "Net-(J1-Pin_1)"
+.TER       R2   1
+
+.ADD_TER   R3   1     "Net-(U1-RX)"
+.TER       U1   2
+
+.ADD_TER   R2   2     "Net-(U1-SPK1)"
+.TER       U1   6
+
+.ADD_TER   D1   2     "Net-(D1-A)"
+.TER       R1   1
+
+.ADD_TER   BT1   P     "Net-(BT1-PadP)"
+.TER       SW1   1
+
+.ADD_TER   U1   3     "/TX"
+.TER       U2   7
+
+.ADD_TER   M1   1     "/SS"
+.TER       U2   3
+
+.ADD_TER   BT1   N     "Net-(BT1-PadN)"
+.TER       U2   16
+
+.ADD_TER   SW2   1     "Net-(SW2-A)"
+.TER       U2   1
+
+.ADD_TER   U1   16     "/GPIO"
+.TER       U2   5
+
+.ADD_TER   R1   2     "Net-(U2-GPIO21_D3)"
+.TER       U2   4
+
+.ADD_TER   M1   7     "/RST"
+.TER       U2   2
+
+.ADD_TER   SW1   2     "Net-(U2-BAT)"
+.TER       U2   15
+
+.ADD_TER   R3   2     "/RX"
+.TER       U2   8
+
+.ADD_TER   M1   3     "/MOSI"
+.TER       U2   11
+
+.ADD_TER   D1   1     "GND"
+.TER       J1   2
+            M1   6
+            SW2   2
+            U1   10
+            U1   7
+            U2   13
+
+.ADD_TER   M1   4     "/MISO"
+.TER       U2   10
+
+.ADD_TER   M1   8     "3.3v"
+.TER       U1   1
+            U2   12
+
+.ADD_TER   M1   2     "/SCK"
+.TER       U2   9
+
+.END

@@ -1,0 +1,163 @@
+[2025-01-28 21:09:00,749][INFO]:  Importing File: /Users/angelinakrinos/Documents/lab64_vday_musicbox/lab64_vday_musicbox.kicad_pro
+[2025-01-28 21:09:00,756][INFO]:  Processing documents list
+[2025-01-28 21:09:00,756][INFO]:  Reading document: lab64_vday_musicbox.kicad_pro
+[2025-01-28 21:09:00,756][INFO]:  Converting document: '/Users/angelinakrinos/Documents/lab64_vday_musicbox/lab64_vday_musicbox.kicad_pro'
+[2025-01-28 21:09:00,756][INFO]:  Finished processing document: '/Users/angelinakrinos/Documents/lab64_vday_musicbox/lab64_vday_musicbox.kicad_pro'
+[2025-01-28 21:09:00,756][INFO]:  Reading document: lab64_vday_musicbox.kicad_pcb
+[2025-01-28 21:09:00,758][WARN]:  KiCad PCB Board Reader: Unsupported keyword: 'group' of parentNode 'kicad_pcb' at line: 3851
+[2025-01-28 21:09:00,758][INFO]:  Converting document: '/Users/angelinakrinos/Documents/lab64_vday_musicbox/lab64_vday_musicbox.kicad_pcb'
+[2025-01-28 21:09:00,759][INFO]:  KiCad Pcb Converter: Attribute name 'Footprint' from line 132 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,761][INFO]:  KiCad Pcb Converter: Attribute name 'Package' from line 220 need to be changed to 'PACKAGE'
+[2025-01-28 21:09:00,761][INFO]:  KiCad Pcb Converter: Attribute name 'Check_prices' from line 233 need to be changed to 'CHECK_PRICES'
+[2025-01-28 21:09:00,761][INFO]:  KiCad Pcb Converter: Attribute name 'Price' from line 246 need to be changed to 'PRICE'
+[2025-01-28 21:09:00,761][INFO]:  KiCad Pcb Converter: Attribute name 'SnapEDA_Link' from line 259 need to be changed to 'SNAPEDA_LINK'
+[2025-01-28 21:09:00,762][INFO]:  KiCad Pcb Converter: Attribute name 'Availability' from line 285 need to be changed to 'AVAILABILITY'
+[2025-01-28 21:09:00,762][INFO]:  KiCad Pcb Converter: Attribute name 'Description_1' from line 311 need to be changed to 'DESCRIPTION_1'
+[2025-01-28 21:09:00,763][INFO]:  KiCad Pcb Converter: Attribute name 'Footprint' from line 691 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,763][INFO]:  KiCad Pcb Converter: Attribute name 'Description' from line 717 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,763][WARN]:  KiCad Footprint Converter: SMD Aperture pads are not supported. Importing pad from line '1439' as polygon shape.
+[2025-01-28 21:09:00,763][WARN]:  KiCad Footprint Converter: SMD Aperture pads are not supported. Importing pad from line '1446' as polygon shape.
+[2025-01-28 21:09:00,764][INFO]:  KiCad Pcb Converter: Attribute name 'Footprint' from line 1304 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,764][INFO]:  KiCad Pcb Converter: Attribute name 'Description' from line 1330 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,764][INFO]:  KiCad Pcb Converter: Attribute name 'Footprint' from line 1511 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,764][INFO]:  KiCad Pcb Converter: Attribute name 'Description' from line 1537 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,765][INFO]:  KiCad Pcb Converter: Attribute name 'Footprint' from line 2498 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,765][INFO]:  KiCad Pcb Converter: Attribute name 'Description' from line 2524 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,765][INFO]:  KiCad Pcb Converter: Attribute name 'Footprint' from line 2775 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,765][INFO]:  KiCad Pcb Converter: Attribute name 'Description' from line 2801 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,766][INFO]:  KiCad Pcb Converter: Attribute name 'Footprint' from line 2982 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,766][INFO]:  KiCad Pcb Converter: Attribute name 'Description' from line 3008 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,766][INFO]:  KiCad Pcb Converter: Attribute name 'Footprint' from line 3326 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,766][INFO]:  KiCad Pcb Converter: Attribute name 'Description' from line 3352 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,767][INFO]:  Finished processing document: '/Users/angelinakrinos/Documents/lab64_vday_musicbox/lab64_vday_musicbox.kicad_pcb'
+[2025-01-28 21:09:00,767][INFO]:  Reading document: lab64_vday_musicbox.kicad_sch
+[2025-01-28 21:09:00,768][INFO]:  Converting document: '/Users/angelinakrinos/Documents/lab64_vday_musicbox/lab64_vday_musicbox.kicad_sch'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: '1043:1043'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: '1043'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Symbol pin '~' at line '288' was renamed to '~@1' because of name duplication
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Symbol pin '~' at line '306' was renamed to '~@2' because of name duplication
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: '1043' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: '1043:1043' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'Connector:Screw_Terminal_01x02'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'Screw_Terminal_01x02'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'SCREW_TERMINAL_01X02' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'Connector:Screw_Terminal_01x02' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'DFR0299:DFR0299'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'DFR0299'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Symbol pin 'GND' at line '716' was renamed to 'GND@1' because of name duplication
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Symbol pin 'GND' at line '932' was renamed to 'GND@2' because of name duplication
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'DFR0299' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'DFR0299:DFR0299' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'Device:LED'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'LED'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'LED' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'Device:LED' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'Device:R_US'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'R_US'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Symbol pin '~' at line '1289' was renamed to '~@1' because of name duplication
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Symbol pin '~' at line '1307' was renamed to '~@2' because of name duplication
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'R_US' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'Device:R_US' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'Device:Speaker'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'Speaker'
+[2025-01-28 21:09:00,768][WARN]:  KiCad Symbol Converter: No footprints assigned to symbol: 'SPEAKER', creating default device.
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'SPEAKER' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'Device:Speaker' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'RFID-RC522:RFID-RC522'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'RFID-RC522'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'RFID-RC522' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'RFID-RC522:RFID-RC522' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'Seeed_Studio_XIAO_Series:XIAO-ESP32-C6-SMD'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'XIAO-ESP32-C6-SMD'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Symbol pin 'GND' at line '1938' was renamed to 'GND@1' because of name duplication
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Symbol pin 'GND' at line '1992' was renamed to 'GND@2' because of name duplication
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Symbol pin 'GND' at line '2082' was renamed to 'GND@3' because of name duplication
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'XIAO-ESP32-C6-SMD' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'Seeed_Studio_XIAO_Series:XIAO-ESP32-C6-SMD' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'Switch:SW_Push'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'SW_Push'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'SW_PUSH' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'Switch:SW_Push' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'Switch:SW_SPST'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'SW_SPST'
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'SW_SPST' finished successfully
+[2025-01-28 21:09:00,768][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'Switch:SW_SPST' finished successfully
+[2025-01-28 21:09:00,769][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'power:GND'
+[2025-01-28 21:09:00,769][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'GND'
+[2025-01-28 21:09:00,769][INFO]:  KiCad Symbol Converter: Generating DeviceSet: 'GND' finished successfully
+[2025-01-28 21:09:00,769][INFO]:  KiCad Symbol Converter: Converting KiCad symbol: 'power:GND' finished successfully
+[2025-01-28 21:09:00,769][INFO]:  Converted 11 schematic symbols
+[2025-01-28 21:09:00,769][INFO]:  KiCad Schematic Converter: Attribute name 'Datasheet' from line 3426 need to be changed to 'DATASHEET'
+[2025-01-28 21:09:00,769][INFO]:  KiCad Schematic Converter: Attribute name 'Description' from line 3435 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,769][INFO]:  KiCad Schematic Converter: Attribute name 'Description' from line 3505 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Footprint' from line 3552 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Datasheet' from line 3561 need to be changed to 'DATASHEET'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Description' from line 3570 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Description' from line 3640 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Footprint' from line 3689 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Description_1' from line 3737 need to be changed to 'DESCRIPTION_1'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Price' from line 3767 need to be changed to 'PRICE'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Package' from line 3777 need to be changed to 'PACKAGE'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Check_prices' from line 3787 need to be changed to 'CHECK_PRICES'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'SnapEDA_Link' from line 3807 need to be changed to 'SNAPEDA_LINK'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Availability' from line 3837 need to be changed to 'AVAILABILITY'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Footprint' from line 3918 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Datasheet' from line 3927 need to be changed to 'DATASHEET'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Description' from line 3936 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Footprint' from line 3986 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Datasheet' from line 3995 need to be changed to 'DATASHEET'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Description' from line 4004 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Description' from line 4073 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,770][INFO]:  KiCad Schematic Converter: Attribute name 'Footprint' from line 4122 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Footprint' from line 4258 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Package' from line 4306 need to be changed to 'PACKAGE'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Price' from line 4316 need to be changed to 'PRICE'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Check_prices' from line 4326 need to be changed to 'CHECK_PRICES'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'SnapEDA_Link' from line 4356 need to be changed to 'SNAPEDA_LINK'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Description_1' from line 4376 need to be changed to 'DESCRIPTION_1'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Availability' from line 4396 need to be changed to 'AVAILABILITY'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Footprint' from line 4459 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Datasheet' from line 4468 need to be changed to 'DATASHEET'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Description' from line 4477 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Description' from line 4547 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Footprint' from line 4596 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Datasheet' from line 4605 need to be changed to 'DATASHEET'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Description' from line 4614 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Description' from line 4683 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Footprint' from line 4730 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Datasheet' from line 4739 need to be changed to 'DATASHEET'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Description' from line 4748 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Footprint' from line 4798 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Datasheet' from line 4807 need to be changed to 'DATASHEET'
+[2025-01-28 21:09:00,771][INFO]:  KiCad Schematic Converter: Attribute name 'Description' from line 4816 need to be changed to 'DESCRIPTION'
+[2025-01-28 21:09:00,772][INFO]:  KiCad Schematic Converter: Attribute name 'Footprint' from line 4866 need to be changed to 'FOOTPRINT'
+[2025-01-28 21:09:00,772][INFO]:  KiCad Schematic Converter: Attribute name 'Package' from line 4934 need to be changed to 'PACKAGE'
+[2025-01-28 21:09:00,772][INFO]:  KiCad Schematic Converter: Attribute name 'Check_prices' from line 4944 need to be changed to 'CHECK_PRICES'
+[2025-01-28 21:09:00,772][INFO]:  KiCad Schematic Converter: Attribute name 'Price' from line 4954 need to be changed to 'PRICE'
+[2025-01-28 21:09:00,772][INFO]:  KiCad Schematic Converter: Attribute name 'SnapEDA_Link' from line 4964 need to be changed to 'SNAPEDA_LINK'
+[2025-01-28 21:09:00,772][INFO]:  KiCad Schematic Converter: Attribute name 'Availability' from line 4984 need to be changed to 'AVAILABILITY'
+[2025-01-28 21:09:00,772][INFO]:  KiCad Schematic Converter: Attribute name 'Description_1' from line 5004 need to be changed to 'DESCRIPTION_1'
+[2025-01-28 21:09:00,773][INFO]:  Finished processing document: '/Users/angelinakrinos/Documents/lab64_vday_musicbox/lab64_vday_musicbox.kicad_sch'
+[2025-01-28 21:09:00,773][INFO]:  Processing documents list finished
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Postprocessing imported design
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Processing board components
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Package 'SW_DIP_SPSTX01_SLIDE_6.7X4.1MM_W6.73MM_P2.54MM_LOWPROFILE_JPIN' was moved from library 'Button_Switch_SMD' to 'Switch'
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Package 'R_0201_0603METRIC' was moved from library 'Resistor_SMD' to 'Device'
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Package 'TERMINALBLOCK_WAGO_236-102_1X02_P5.00MM_45DEGREE' was moved from library 'TerminalBlock_WAGO' to 'Connector'
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Package 'SW_PUSH_1P1T-SH_NO_CK_KMR2XXG' was moved from library 'Button_Switch_SMD' to 'Switch'
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Package 'LED-APA102-2020' was moved from library 'LED_SMD' to 'Device'
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Processing board components finished
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Processing board nets
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Board signal 'NET-(BT1-PADP)' name was changed to match schematic net name 'N$3'
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Board signal 'NET-(SW2-A)' name was changed to match schematic net name 'N$13'
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Board signal 'NET-(U2-GPIO21_D3)' name was changed to match schematic net name 'N$14'
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Board signal 'NET-(U1-RX)' name was changed to match schematic net name 'N$16'
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Board signal 'NET-(J1-PIN_1)' name was changed to match schematic net name 'N$17'
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Board signal 'NET-(U2-BAT)' name was changed to match schematic net name 'N$21'
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Board signal 'NET-(U1-SPK1)' name was changed to match schematic net name 'N$25'
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Board signal 'NET-(D1-A)' name was changed to match schematic net name 'N$26'
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Processing board nets finished
+[2025-01-28 21:09:00,773][INFO]:  KiCad Importer Post Processor: Processing net classes
+[2025-01-28 21:09:00,774][INFO]:  KiCad Importer Post Processor: Processing net classes finished
+[2025-01-28 21:09:00,774][INFO]:  KiCad Importer Post Processor: Postprocessing imported design finished
+[2025-01-28 21:09:00,774][INFO]:  Import finished

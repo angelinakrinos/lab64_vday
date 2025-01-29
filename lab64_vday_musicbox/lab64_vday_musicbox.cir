@@ -1,0 +1,14 @@
+.title KiCad schematic
+U2 __U2
+SW1 __SW1
+BT1 __BT1
+D1 __D1
+R1 Net-_D1-A_ Net-_U2-GPIO21_D3_ R_US
+SW2 __SW2
+U1 __U1
+R3 Net-_U1-RX_ /RX R_US
+J1 __J1
+LS1 unconnected-_LS1-Pad1_ unconnected-_LS1-Pad2_ Speaker
+R2 Net-_J1-Pin_1_ Net-_U1-SPK1_ R_US
+M1 __M1
+.end

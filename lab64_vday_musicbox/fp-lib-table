@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "esp32c6")(type "KiCad")(uri "${KIPRJMOD}/esp32c6")(options "")(descr ""))
+  (lib (name "BAT_1043")(type "KiCad")(uri "${KIPRJMOD}/BAT_1043")(options "")(descr ""))
+  (lib (name "RFID-RC522")(type "KiCad")(uri "${KIPRJMOD}/RFID-RC522")(options "")(descr ""))
+  (lib (name "BAT_1048")(type "KiCad")(uri "${KIPRJMOD}/BAT_1048")(options "")(descr ""))
+  (lib (name "DFR0299")(type "KiCad")(uri "${KIPRJMOD}/DFR0299")(options "")(descr ""))
+)

@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "1043")(type "KiCad")(uri "${KIPRJMOD}/BAT_1043/1043.kicad_sym")(options "")(descr ""))
+  (lib (name "1048")(type "KiCad")(uri "${KIPRJMOD}/BAT_1048/1048.kicad_sym")(options "")(descr ""))
+  (lib (name "DFR0299")(type "KiCad")(uri "${KIPRJMOD}/DFR0299/DFR0299.kicad_sym")(options "")(descr ""))
+  (lib (name "RFID-RC522")(type "KiCad")(uri "${KIPRJMOD}/RFID-RC522/RFID-RC522.kicad_sym")(options "")(descr ""))
+  (lib (name "Seeed_Studio_XIAO_Series")(type "KiCad")(uri "${KIPRJMOD}/esp32c6/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
+)
