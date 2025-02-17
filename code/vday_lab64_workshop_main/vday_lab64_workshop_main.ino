@@ -17,9 +17,13 @@
 // Pin Definitions for ESP32-C6
 #define DFPLAYER_RX 17  // ESP32-C6 RX (DFPlayer TX)
 #define DFPLAYER_TX 16  // ESP32-C6 TX (DFPlayer RX)
-#define BUSY_PIN 15     // DFPlayer BUSY pin to check playback status
+
+// DFPlayer BUSY pin to check playback status
+// Pin D4 on the XIAO-EPS32-C6
+#define BUSY_PIN 7
+
 #define BUTTON_PIN 0    // Button for play/pause
-#define LED_PIN 21       // LED for status indication
+#define LED_PIN 21      // LED for status indication
 
 #define SCK_PIN   19    // SPI Clock
 #define MISO_PIN  20    // SPI MISO
@@ -118,13 +122,15 @@ void readRFIDTag() {
 
     playTrack(trackNumber);
     rfid.PICC_HaltA();
+    rfid.PCD_StopCrypto1();  // Allow further card reads
+    delay(200);
 }
 
 
 void playTrack(int track) {
   Serial.print("▶️ Playing track: ");
   Serial.println(track);
-  myMP3.play(track);
+  myMP3.playFromMP3Folder(track);
   isPlaying = true;
   digitalWrite(LED_PIN, HIGH); // Turn LED on while playing
 }
