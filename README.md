@@ -8,7 +8,8 @@ An Arduino-controlled music player for a Lab64 workshop, using an **ESP32C6**, *
 1. **Microcontroller (XIAO ESP32C6)**  
    - The **battery pads** on the back should be soldered first.  
    - Apply a small amount of solder to the pads before attaching the leads.  
-   - Ensure the leads are inserted into the **thru holes** marked **BAT- and BAT+** (they are swapped—**double-check polarity!**).  
+   - Ensure the leads are inserted into the **thru holes** marked **BAT- and BAT+**
+   (the leads will need to cross each other; **double-check polarity!**).  
    - Solder header pins onto the microcontroller.  
 
 2. **RFID Module**  
@@ -26,20 +27,43 @@ An Arduino-controlled music player for a Lab64 workshop, using an **ESP32C6**, *
 
 ### **Software Setup**  
 #### 💻 **Preparing Your Development Environment**  
-1. Install **Arduino IDE** (if you haven’t already).  
-2. Install the **XIAO ESP32C6 board configuration** in the Arduino IDE.  
-
-#### 🚀 **Uploading the Code**  
-- You need to **push the `lab64_vday.ino` code** to your **ESP32C6** for the music box to function.  
-- Open `lab64_vday.ino` in Arduino IDE, select the correct **board (ESP32C6)** and **port**, then upload the code.  
+1. Install **Arduino IDE** (if you haven’t already).
+2. Install the **XIAO ESP32C6 board configuration** in the Arduino IDE (if you don't already have it),
+   following [these instructions](https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/#software-preparation)
+3. Install the following two code dependencies.
+   In the Arduino IDE, open the library manager
+   (book icon in left sidebar, or `Ctrl/Cmd-Shift-I`)
+   and search for the appropriate library.
+   To make sure you have the right search result,
+   the "More Info" item in the options menu
+   next to the search result should take you to the same place linked here.
+   1. [`RFID_MFRC522v2`](https://github.com/OSSLibraries/Arduino_MFRC522v2),
+      for communicating with the RFID reader.
+   2. [`DFPlayerMini_Fast`](https://github.com/PowerBroker2/DFPlayerMini_Fast)
+      for communicating with the mp3 player.
 
 #### 📀 **Writing RFID Tags & Playing Music**  
 1. **RFID Writing**  
-   - Use the provided `rfid_writer.ino` code to write RFID tags.  
-   - The writer will **batch-write** tags **sequentially from 1 → ∞** (keep swiping cards to keep writing).  
+   - Use the provided `rfid_writer.ino` code to write RFID tags.
+   - Open the file in the Arduino IDE,
+     select the correct **board (ESP32C6)** and **port**,
+     then upload the code (➡️ icon in the upper menu bar).
+   - In the Arduino IDE, open up the serial monitor
+     (`Tools > Serial Monitor`, or `Ctrl/Cmd-Shift-M`)
+   - Scan your RFID cards on the RFID card (`RFID-RC522`) one at a time.
+     For each card, the microcontroller will emit a message like the following
+     when it succeeds.
+     ```
+     Card UID:  D8 CC 69 B9
+     Data written successfully in block: 2
+     Verification read successful!
+     Data in block 2: Track 0001
+     ```
+     The writer will **batch-write** tags **sequentially from 1 → ∞**
+     for each card you scan.
 
 2. **Music File Setup**  
-   - Format your **microSD card to FAT32**.  
+   - Format your **microSD card to FAT32**, if it isn't already
    - Inside the SD card, create a folder named **`mp3`**.  
    - Add your MP3 files inside the folder, naming them sequentially:  
      ```
@@ -48,7 +72,12 @@ An Arduino-controlled music player for a Lab64 workshop, using an **ESP32C6**, *
      0003.mp3  
      ...
      ```
-   - Insert the **SD card into the DFPlayer Mini** and **swipe an RFID tag** to play its corresponding track.  
+   - Insert the **SD card into the DFPlayer Mini**
+   
+3. **Uploading the Code** 
+   - You need to **push the `lab64_vday.ino` code** to your **ESP32C6**
+     for the music box to function.
+   - **swipe an RFID tag** to play its corresponding track.  
 
 ---
 

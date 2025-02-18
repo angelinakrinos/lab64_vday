@@ -24,10 +24,10 @@ MFRC522 rfid{driver}; // Create MFRC522 instance
 
 MFRC522::MIFARE_Key key;
 byte blockAddress = 2;
-byte newBlockData[16] = {"Track 0002"}; // Default track number
+byte newBlockData[16] = {"Track 0001"}; // Default track number
 byte bufferblocksize = 18;
 byte blockDataRead[18];
-uint16_t currentNumber = 2; // Start track number
+uint16_t currentNumber = 1; // Start track number
 
 void setup() {
   Serial.begin(9600);
