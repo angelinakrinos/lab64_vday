@@ -17,11 +17,7 @@
 // Pin Definitions for ESP32-C6
 #define DFPLAYER_RX 17  // ESP32-C6 RX (DFPlayer TX)
 #define DFPLAYER_TX 16  // ESP32-C6 TX (DFPlayer RX)
-
-// DFPlayer BUSY pin to check playback status
-// Pin D4 on the XIAO-EPS32-C6
-#define BUSY_PIN 7
-
+#define BUSY_PIN 22     // DFPlayer BUSY pin to check playback status
 #define BUTTON_PIN 0    // Button for play/pause
 #define LED_PIN 21      // LED for status indication
 
