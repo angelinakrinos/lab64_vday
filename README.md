@@ -30,7 +30,7 @@ An Arduino-controlled music player for a Lab64 workshop, using an **ESP32C6**, *
 2. Install the **XIAO ESP32C6 board configuration** in the Arduino IDE.  
 
 #### 🚀 **Uploading the Code**  
-- You need to **push the `lab64_vday.ino` code** to your **ESP32C6** for the music box to function.  
+- You need to **push the `vday_lab64_workshop_main.ino` code** to your **ESP32C6** for the music box to function.  
 - Open `lab64_vday.ino` in Arduino IDE, select the correct **board (ESP32C6)** and **port**, then upload the code.  
 
 #### 📀 **Writing RFID Tags & Playing Music**  
